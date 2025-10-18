@@ -1,38 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+
+#logo_link {
+    padding-top: 5px;
+}
+
 nav a {
     text-align: center;
     color: whitesmoke;
     text-decoration: none;
+    padding: 35px;
 }
+
 #hero-msg h1 {
     text-align: center;
 } 
+
 #hero-msg h4 {
     text-align: center;
 }
+
 .button-box {
     text-align: center;
 }
+
 main section {
     text-align: center;
 }
+
 #background {
     height: 725px;
+    background-color: #dbe6f0;
 }
+
 body {
     background-color: #f5f5f5; 
     color: #333333; 
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+h2 {
+    margin: 0;
+}
 
 header {
-    background-color: rgba(20, 30, 50, 0.8); 
+    background-color: #1a1a1a; 
 }
-
 
 nav a:hover {
     background-color: #1a73e8; 
@@ -43,34 +62,46 @@ nav a:hover {
     background-color: #ff6600; 
     color: #ffffff; 
     text-decoration: none;
-}
-
-
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+} 
 .book:hover, .join:hover {
     background-color: #e65c00; 
 }
 
-
-#background {
-    background-color: #dbe6f0;
-}
-
-
 .msg {
     background-color: #f2f2f2; 
-    color: #333333; 
+    color: #333333;
+    line-height: 1.5em; 
+    padding: 35px;
 }
 
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
 
 footer {
     background-color: #1a1a1a; 
     color: #ffffff; 
     text-align: center;
     text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px; 
 }
 
 .icon, .logo {
     width: 80px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer p {
@@ -78,6 +109,28 @@ footer p {
 }
 
 footer p a:hover {
-     color: whitesmoke;
+    color: whitesmoke;
     text-decoration: none;
+}
+
+.home-title, .msg h2 {
+    font-family: 'Pacifico', 'Segoe Script', cursive;
+}
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px; 
+}
+
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0; 
+}
+
+.card-img {
+    border: 10px black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
