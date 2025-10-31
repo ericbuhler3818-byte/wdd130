@@ -192,3 +192,8 @@ nav a:hover {
   border-top: 2px solid var(--primary-color);
   border-right: 2px solid var(--primary-color);
 }
+
+img {
+    max-width: 200px;
+    height: auto;
+}
